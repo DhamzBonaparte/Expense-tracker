@@ -1,0 +1,114 @@
+.edit {
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  transform: translateX(130%);
+  top:20%;
+  transition: 0.3s ease-in;
+  left:0;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+    p {
+      margin-left: 15px;
+    }
+
+    button {
+      margin-right: 15px;
+      border-radius: 5px;
+      border:none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .mid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 0px;
+    width: 100%;
+
+    .infos {
+      width: 90%;
+      label {
+        width: 100%;
+        display: flex;
+        margin-bottom: 5px;
+        justify-content: start;
+      }
+
+      input {
+        margin-bottom: 20px;
+        height: 4vh;
+        width: 90%;
+        padding: 3px;
+        border-radius: 5px;
+        border: 1px solid rgb(208, 198, 198);
+
+        &::placeholder {
+          margin-left: 10px;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .selects {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+      margin-left: 50px;
+      gap: 15px;
+
+      label {
+        font-size: 15px;
+      }
+
+      input[type="radio"] {
+        height: 15px;
+        width: 15px;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+    button {
+      margin-right: 20px;
+      height: 3vh;
+      border-radius: 5px;
+      border: none;
+      font-weight: 700;
+      width: 4vw;
+      box-shadow: 0 7px 20px rgba(0, 0, 0, 0.1);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
