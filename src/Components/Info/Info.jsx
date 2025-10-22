@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import "./info.scss";
+import "./Info.scss";
 import { mainContext } from "../Context/Context";
 
 export default function Info() {
