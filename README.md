@@ -1,2 +1,2 @@
 Track your expenses here.
-CHeck it out here: https://track-expense-now.netlify.app/
+Check it out here: https://track-expense-now.netlify.app/
